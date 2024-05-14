@@ -48,7 +48,6 @@ Here's the simplified JSON structure that you might receive from the extension:
     "impressions": "10M"
   },
   "extras": {
-    "rawLink": "https://twitter.com/johndoe/status/123456789/analytics",
     "tweetID": "123456789",
     "visitLink": "https://twitter.com/johndoe/status/123456789",
     "avatar": "https://example.com/avatar.jpg",
