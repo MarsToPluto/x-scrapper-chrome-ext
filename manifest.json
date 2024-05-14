@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Scroll Element Detector",
+  "name": "X Scrapper",
   "version": "1.0",
   "permissions": ["activeTab"],
   "content_scripts": [
