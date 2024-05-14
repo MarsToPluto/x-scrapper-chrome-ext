@@ -31,6 +31,46 @@ Now you're ready to start scraping!
 1. Visit the webpage from which you want to scrape data, for example, `example.com/home`.
 2. The extension will automatically scroll the page like a human, but at high speed. Check your MongoDB database for scraped data in the "X" collection.
 
+
+
+Here's the simplified JSON structure that you might receive from the extension:
+
+
+```json
+{
+  "name": "John Doe",
+  "tweetText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget vestibulum massa. Integer consectetur sapien nec tellus ullamcorper, id faucibus arcu luctus. Aliquam sit amet elit in tortor ullamcorper vehicula at ut velit.",
+  "isVerified": true,
+  "stats": {
+    "replies": "123",
+    "retweets": "456",
+    "likes": "789",
+    "impressions": "10M"
+  },
+  "extras": {
+    "rawLink": "https://twitter.com/johndoe/status/123456789/analytics",
+    "tweetID": "123456789",
+    "visitLink": "https://twitter.com/johndoe/status/123456789",
+    "avatar": "https://example.com/avatar.jpg",
+    "username": "johndoe"
+  },
+  "timestamp": {
+    "$date": "2024-05-13T18:04:47.000Z"
+  },
+  "postImages": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg"
+  ],
+  "insertedAt": {
+    "$date": "2024-05-14T17:10:59.505Z"
+  },
+  "__v": 0
+}
+```
+
+
+
+
 Happy scraping! Let me know if you need further assistance.
 
 
