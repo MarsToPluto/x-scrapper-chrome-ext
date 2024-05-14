@@ -45,4 +45,3 @@ For any inquiries or support, please contact the project maintainer: [MarsToPlut
 
 ---
 
-Feel free to expand or modify this README to better suit your project's specifics!
