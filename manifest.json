@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Scroll Element Detector",
+  "version": "1.0",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
