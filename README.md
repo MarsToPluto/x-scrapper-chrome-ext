@@ -4,6 +4,12 @@
 x-scrapper-chrome-ext is a Chrome extension designed for web scraping tasks. It provides a convenient interface for extracting data from web pages and saving it for further analysis or processing. Whether you're a developer, researcher, or data enthusiast, this extension simplifies the process of gathering information from websites.
 
 
+Prerequisites
+Before installing the extension, ensure you have the following prerequisites:
+
+Node.js: If you don't have Node.js installed, download and install it from nodejs.org.
+MongoDB: Install MongoDB from mongodb.com. Follow the installation instructions for your operating system.
+
 #### Installation
 1. Clone or download the repository: [x-scrapper-chrome-ext](https://github.com/MarsToPluto/x-scrapper-chrome-ext).
 2. Open Google Chrome and go to `chrome://extensions/`.
